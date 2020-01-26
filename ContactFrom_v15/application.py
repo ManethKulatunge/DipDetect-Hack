@@ -1,4 +1,5 @@
 from flask import Flask, render_template, request, session, current_app
+import code_nlp as mf
 
 app = Flask(__name__)
 
@@ -10,5 +11,6 @@ def index():
 def hello():
     if request.method == 'POST':
         name = request.form["name"]
-        return name
+        pm = mf.process_message('I am sad and depressed')
+        return mf.sc_tf_idf.classify(pm)     
     
