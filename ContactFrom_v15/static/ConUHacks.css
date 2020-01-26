@@ -1,0 +1,69 @@
+body {
+    background-image: linear-gradient(sandybrown, tomato);
+}
+
+p {
+  color: black;
+  font-size: 0.5em;
+  font-family: Avenir;
+}
+
+legend{
+  color: black;
+  font-size: 2em;
+}
+
+.body-container{
+  height: 25%;
+  width: 50%;
+  margin: 50px auto;
+}
+
+ul li{
+  list-style-type: none;
+}
+
+div{
+  font-family: Avenir;
+}
+
+textarea {
+  font-family: Avenir;
+  font-size: 12px;
+  height: 50px;
+  width: 150px;
+}
+
+h2 {
+  font-size: 14px;
+}
+
+h3 {
+  font-size:12px;
+  font-style: italic;
+
+}
+
+.box {
+  width:600px;
+  height:85px;
+  border-radius: 15px;
+}
+
+.bigbox {
+  width: 900px;
+  height: 150px;
+}
+
+.o {
+  background:#FF702A;
+}
+
+.gray {
+  background: gray;
+}
+
+.line{
+  width:50px;
+  height:1000px;
+}
